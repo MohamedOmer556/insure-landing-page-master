@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
+
 html{
     font-size: 62.5%;
 font-family: 'Karla', sans-serif;
@@ -32,7 +33,7 @@ padding-top: 48px;
     min-height: 30vh;
     margin-top: 15rem;
     list-style: none;
-    margin-right: 10rem;
+    
     
 }
 .nav-ol a{
@@ -270,6 +271,7 @@ footer{
     position: relative;
     min-height: 35vh;
     background: #FAFAFA;
+    overflow: hidden;
 }
 .footer-desk{
     position: absolute;
@@ -514,9 +516,7 @@ font-size: 1.5rem;
 
 }
 @media screen and (max-width:740px){
-    body{
-        overflow-x: hidden;
-    }
+    
     /* hero */
     .right-desk,.intro-desk,.left-desk{
         display: none;
@@ -569,8 +569,9 @@ font-size: 1.5rem;
         display: block;
         position: absolute;
         top: -10%;
-        right: -12%;
+        right: -5.5%;
        z-index: 3;
+       
     }
     /* footer */
     .footer-desk{
@@ -681,16 +682,6 @@ margin: 2rem auto;
     padding: 1rem 1.5rem;
 
 }
-
-
-}
-@media screen and (max-width:330px){
-  
-    .nav-ol{
-       
-        margin-right: 15rem;
-        
-    }
 
 
 }
